@@ -1,16 +1,49 @@
-# pawpal
+# PawPal 🐾
 
-A new Flutter project.
+PawPal is a Flutter mobile app for pet adoption, shopping, and veterinary services — built with Firebase (Realtime Database, Storage, Auth, Messaging, Crashlytics) and modern architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧩 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Pet listings & adoption flows  
+- Shop for pet products  
+- Veterinary directory & appointment booking  
+- Profile management & authentication  
+- Push notifications & deep-link handling  
+- Image upload support  
+- Crashlytics integration with error & route breadcrumb logging  
+- Runtime permissions for camera, gallery & notifications  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technology Stack
+
+| Layer         | Tools & Packages                            |
+|----------------|---------------------------------------------|
+| UI / Framework | Flutter + Material / GoRouter               |
+| Auth           | Firebase Auth (Email / Google / Facebook)   |
+| Database        | Firebase Realtime Database                  |
+| File storage   | Firebase Storage                             |
+| Notifications   | Firebase Messaging + flutter_local_notifications |
+| Crash analytics | Firebase Crashlytics                         |
+| Permissions     | permission_handler                          |
+| Image picking   | image_picker                                |
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### Prerequisites
+
+- Flutter (recommended stable channel)  
+- JDK 17  
+- Android Studio or compatible SDKs  
+- Firebase project (Android app added)  
+
+### Setup Steps
+
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/yourusername/pawpal.git
+   cd pawpal
